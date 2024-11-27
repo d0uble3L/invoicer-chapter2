@@ -6,7 +6,7 @@
 # Go tests use this curl binary for integration tests.
 #
 
-FROM ubuntu:trusty-20190425
+FROM ubuntu:24.10
 
 RUN apt-get update && \
     apt-get upgrade -y && \
