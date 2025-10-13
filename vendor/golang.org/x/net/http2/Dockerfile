@@ -6,7 +6,7 @@
 # Go tests use this curl binary for integration tests.
 #
 
-FROM ubuntu:25.04
+FROM ubuntu:questing-20250830
 
 RUN apt-get update && \
     apt-get upgrade -y && \
