@@ -1,4 +1,4 @@
-FROM golang:1.24.0-alpine3.21
+FROM golang:1.25.3-alpine3.21
 RUN addgroup --gid 10001 app
 RUN adduser --gid 10001 --uid 10001 \
     --home /app --shell /sbin/nologin \
